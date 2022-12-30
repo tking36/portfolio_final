@@ -9,7 +9,7 @@ const Skills = (props) => {
   return (
    <div className='skills'>
 
-    <h1>Skills</h1>
+    <h1 className='skills-title'>Skills</h1>
 
     <div className="card">
         <div className="card-header">Languages</div>
@@ -25,7 +25,7 @@ const Skills = (props) => {
         <ul className="list-group list-group-flush">
             <li className="list-group-item">jQuery</li>
             <li className="list-group-item">A second item</li>
-            <li className="list-group-item">A third item</li>
+            
         </ul>
     </div>
 
@@ -35,6 +35,7 @@ const Skills = (props) => {
             <li className="list-group-item">BootStrap</li>
             <li className="list-group-item">React</li>
             <li className="list-group-item">Django</li>
+            <li className="list-group-item">Express</li>
         </ul>
     </div>
 

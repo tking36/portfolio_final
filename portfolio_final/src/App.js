@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
 import Page from './components/Skills_page'
+import AnimatedBg from "react-animated-bg";
 
 
 
@@ -15,8 +16,11 @@ function App() {
   const [page, setPage] = useState(0)
 
   
+  
 
   return (
+    
+
     <div className="app container-fluid">
       <Header/>
       <div className="middle text-center">
