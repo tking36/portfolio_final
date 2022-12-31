@@ -16,7 +16,7 @@ code {
 
 .navigation {
   position: fixed;
-  bottom: 5%;
+  bottom: 3%;
   left: 50%;
 transform: translateX(-50%);
 }
@@ -76,7 +76,7 @@ transform: translateX(-50%);
  margin: auto;
   background-color: grey;
   width: 23rem;
-  height: 42rem;
+  height: 37rem;
   margin-top: 1rem;
   overflow: scroll;
   border-radius: 10px;
@@ -156,7 +156,7 @@ transform: translateX(-50%);
 }
 
 .brand-statement{
-  margin-top: 6rem;
+  margin-top: 2rem;
   color: white;
   padding: 10px;
 }
@@ -182,7 +182,8 @@ transform: translateX(-50%);
   margin: auto;
   border-radius: 7px;
   font-size: 20px;
-  margin-top: 1rem;
+  margin-top: 3rem;
+  
 }
 
 .about{
@@ -191,6 +192,7 @@ transform: translateX(-50%);
   margin: auto;
   border-radius: 7px;
   font-size: 20px;
+  
 }
 
 
