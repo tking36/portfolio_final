@@ -248,3 +248,26 @@ transform: translateX(-50%);
 margin-left: 2rem;
 margin-right: 2rem;
 }
+
+@media screen and (min-width:500px) {
+  .middle{
+    width: 80%;
+    height: 38rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+  }
+
+  .about-header{
+    position: relative;
+    width: 100%;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}

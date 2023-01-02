@@ -13,9 +13,9 @@ const Page = (props) => {
   return (
     <>
     <div className='page-buttons'>
-        <button className='page-button btn btn-success glow navB' onClick={() => changeShow(0)}><i class="bi bi-code"></i></button>
+        <button title="Skills" className='page-button btn btn-success glow navB' onClick={() => changeShow(0)}><i class="bi bi-code"></i></button>
         <h1 className='skills-title'>Skills</h1>
-        <button className='page-button btn btn-success glow navB' onClick={() => changeShow(1)}><i class="bi bi-hammer"></i></button>
+        <button title="Projects" className='page-button btn btn-success glow navB' onClick={() => changeShow(1)}><i class="bi bi-hammer"></i></button>
     </div>
 
     {show === 0 ? <Skills /> : null}
