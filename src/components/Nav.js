@@ -26,6 +26,8 @@ const Nav = (props) => {
 
   return (
     <div className='navigation'>
+
+        
         <div className='nav-buttons'>
             {show ? 
             <>

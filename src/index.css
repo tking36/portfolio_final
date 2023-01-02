@@ -71,7 +71,6 @@ transform: translateX(-50%);
 }
 
 
-
 .middle {
  margin: auto;
   background-color: grey;
@@ -250,6 +249,11 @@ margin-right: 2rem;
 }
 
 @media screen and (min-width:500px) {
+
+  body{
+    background-size:cover ;
+  }
+
   .middle{
     width: 80%;
     height: 38rem;
@@ -270,4 +274,9 @@ margin-right: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
+}
+
+button:visited {
+  background-color: red;
+  font-size: 30px !important;
 }
