@@ -9,7 +9,7 @@ const Skills = (props) => {
   return (
    <div className='skills'>
 
-    <h1 className='skills-title'>Skills</h1>
+    
 
     <div className="card">
         <div className="card-header">Languages</div>

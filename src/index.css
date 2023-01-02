@@ -60,8 +60,8 @@ transform: translateX(-50%);
 }
 
 .navB{
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
   box-shadow: 0.5px -1px 10px -1px green;
   -webkit-box-shadow: 0.5px -1px 10px -1px green;
   -moz-box-shadow: 0.5px -1px 10px -1px green;
@@ -119,11 +119,10 @@ transform: translateX(-50%);
 } */
 
 .page-buttons{
-  position: fixed;
   display: flex;
-  left: 50%;
-  top: 81%;
-  transform: translate(-50%, -50%);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-button {
