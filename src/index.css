@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,18 +16,30 @@ code {
     monospace;
 }
 
+
+
 .navigation {
-  position: fixed;
+  position: absolute;
   bottom: 3%;
   left: 50%;
 transform: translateX(-50%);
 }
 
+.nav-desktop{
+  display: flex;
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  
+}
+
 .nav-buttons{
   display: flex;
   justify-content: space-between;
- 
+  margin: auto;
 }
+
+
 
 .header{
   top: 0;
@@ -60,8 +74,8 @@ transform: translateX(-50%);
 }
 
 .navB{
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
   box-shadow: 0.5px -1px 10px -1px green;
   -webkit-box-shadow: 0.5px -1px 10px -1px green;
   -moz-box-shadow: 0.5px -1px 10px -1px green;
@@ -70,15 +84,19 @@ transform: translateX(-50%);
   font-size: 20px;
 }
 
+.navD{
+  font-size: 1.5rem;
+}
 
+.active {
+  color: cyan !important;
+}
 
 .middle {
- margin: auto;
-  background-color: grey;
+  margin: auto;
   width: 23rem;
-  height: 37rem;
+  height: 39rem;
   margin-top: 1rem;
-  overflow: scroll;
   border-radius: 10px;
   opacity: 0.95;
   background-color: rgb(0, 29, 56);
@@ -86,6 +104,21 @@ transform: translateX(-50%);
     -webkit-box-shadow: 1px -1px 23px -1px cyan;
     -moz-box-shadow: 1px -1px 23px -1px cyan;
 }
+
+.middle-scroll{
+  margin: auto;
+  width: 80%;
+  height: 39rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+  opacity: 0.95;
+  background-color: rgb(0, 29, 56);
+  box-shadow: 1px -1px 23px -1px cyan;
+  -webkit-box-shadow: 1px -1px 23px -1px cyan;
+  -moz-box-shadow: 1px -1px 23px -1px cyan;
+ 
+}
+
 
 .portrait {
   width: 10rem;
@@ -119,11 +152,10 @@ transform: translateX(-50%);
 } */
 
 .page-buttons{
-  position: fixed;
   display: flex;
-  left: 50%;
-  top: 81%;
-  transform: translate(-50%, -50%);
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .page-button {
@@ -147,18 +179,19 @@ transform: translateX(-50%);
   text-shadow: white 1px 0 10px;
 }
 
+
 .brand-statement-container{
   background-color: rgb(0, 0, 0);
-  width: 90%;
-  margin: auto;
   border-radius: 7px;
   font-size: 20px;
+  margin: 0;
 }
 
 .brand-statement{
   margin-top: 2rem;
   color: white;
-  padding: 10px;
+  width: 100%;
+  padding: 5px;
 }
 
 .about-header {
@@ -196,6 +229,7 @@ transform: translateX(-50%);
 }
 
 
+
 .skills-title{
   color: white;
   text-shadow: cyan 1px 0 10px;
@@ -205,7 +239,7 @@ transform: translateX(-50%);
 
 .card{
   opacity: 0.9;
-  width: 80%;
+  width: 30%;
   margin: auto;
   margin-top: 1rem;
   font-family: 'Audiowide', cursive;
@@ -226,20 +260,27 @@ transform: translateX(-50%);
   background-color: grey !important;
 }
 
-.carousel-text{
+#projects{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+/* .carousel-text{
   color: white !important;
   background-color: black;
   border-radius: 10px;
-}
+} */
 
 .link{
   color: white !important;
   font-family: 'Audiowide', cursive;
 }
 
-.carousel{
+/* .carousel{
   height: 100%;
-}
+} */
 
 .link-me{
   background-color: rgb(0, 0, 0) !important;
@@ -248,4 +289,84 @@ transform: translateX(-50%);
   font-size: 30px;
 margin-left: 2rem;
 margin-right: 2rem;
+}
+
+@media screen and (min-width:500px) {
+
+  body{
+    background-size:cover ;
+  }
+
+  .middle{
+    width: 80%;
+    height: 38rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  .about-header{
+    position: relative;
+    width: 100%;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .brand-statement-container{
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+
+  .projects{
+    overflow: scroll;
+  }
+}
+
+@media screen and (min-width:500) and (max-width: 1000px) {
+  .brand-statement-container{
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+  }
+}
+
+button:visited {
+  background-color: red;
+  font-size: 30px !important;
+}
+
+@media screen and (max-width:500px) {
+
+  #projects{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+    margin: auto;
+  }
+
+  .card{
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  #first{
+    margin-top: 1rem;
+  }
+
+  .middle-scroll{
+    overflow: scroll;
+  }
+
+  .middle{
+    overflow: auto;
+  }
+  
+
 }

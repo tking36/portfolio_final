@@ -12,12 +12,11 @@ const Page = (props) => {
 
   return (
     <>
-    {show === 0 ? <Skills /> : null}
-    {show === 1 ? <Projects /> : null}
-    <div className='page-buttons'>
-        <button className='page-button btn btn-success glow navB' onClick={() => changeShow(0)}><i class="bi bi-code"></i></button>
-        <button className='page-button btn btn-success glow navB' onClick={() => changeShow(1)}><i class="bi bi-hammer"></i></button>
-    </div>
+  
+
+     <Skills /> : null
+    
+    
     </>
   )
 }

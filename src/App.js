@@ -7,6 +7,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Page from './components/Skills_page'
 import AnimatedBg from "react-animated-bg";
+import Projects from './components/Projects'
 
 
 
@@ -15,7 +16,14 @@ function App() {
 
   const [page, setPage] = useState(0)
 
-  
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+      const handleResize = () => setWindowWidth(window.innerWidth);
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   
 
   return (
@@ -23,12 +31,21 @@ function App() {
 
     <div className="app container-fluid">
       <Header/>
-      <div className="middle text-center">
+      {windowWidth > 500 ? <Nav setPage={setPage}/> : null}
+      <div className={page === 4  ? "middle-scroll text-center" : "middle text-center"}>
         {page === 0 ? <Home setPage={setPage}/> : null}
         {page === 1 ? <About setPage={setPage}/> : null}
         {page === 2 ? <Page setPage={setPage}/> : null}
+        {page === 4 ? <Projects setPage={setPage}/> : null }
+        { page === 0 ?
+        <>
+        <a title="Git Hub" href='https://github.com/tking36' target='blank'><i class="bi bi-github glow link-me"></i></a> 
+        <a title="Linked In" href='https://github.com/tking36' target='blank'><i class="bi bi-linkedin glow link-me"></i></a> 
+        </>
+        : null}
       </div>
-      <Nav setPage={setPage}/>
+
+      {windowWidth < 500 ? <Nav setPage={setPage}/> : null}
       
     </div>
   );
