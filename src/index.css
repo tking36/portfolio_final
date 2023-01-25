@@ -386,6 +386,21 @@ button:visited {
   .middle{
     overflow: auto;
   }
+
+  .header{
+    display: none;
+  }
+
+  .name{
+    margin: 0;
+    color: white;
+  text-shadow: cyan 1px 0 10px;
+  font-family: 'Oleo Script', cursive;
+  }
+
+  .portrait{
+    margin: 0;
+  }
   
 
 }

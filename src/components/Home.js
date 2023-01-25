@@ -29,6 +29,7 @@ const Home = (props) => {
     
     return(
 <div className='container'>
+    <h1 className='name'>Taylor King</h1>
     <img className='portrait' src='https://i.imgur.com/Sypy7sg.jpg'></img> 
     
     <h1 className='title'>Software <span className='engineer'>Engineer</span></h1>
