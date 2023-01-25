@@ -6,9 +6,9 @@ const Projects = (props) => {
         props.setPage(num)
       }
 
-      const Music = require ('../images/music.gif')
-      const Space = require ('../images/space.gif')
-      const Podcast = require ('../images/podcast.gif')
+      const Music = require ('../images/music-shot.png')
+      const Space = require ('../images/space-shot.png')
+      const Podcast = require ('../images/podcast-shot.png')
 
   return (
     <>
@@ -26,7 +26,7 @@ const Projects = (props) => {
         </div>
 
         <div className="card" >
-            <img src={Space} className="card-img-top" alt="..."/>
+        <img src={Space} className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">Space Invaders</h5>
                 <p className="card-text">This is a react app that uses Typscript and TSX. Choose your own adventure game. Travel space and defeat enemies to gather recourses for Earth.</p>

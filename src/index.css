@@ -331,8 +331,18 @@ margin-right: 2rem;
     height: 32rem;
   }
 
+  .card-D{
+    height: auto;
+  }
+
   .card-img-top{
     height: 15rem;
+  }
+  
+  .skills-body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 }
 
