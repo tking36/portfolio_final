@@ -19,10 +19,10 @@ code {
 
 
 .navigation {
-  position: absolute;
-  bottom: 3%;
-  left: 50%;
-transform: translateX(-50%);
+  position: relative;
+ margin: auto;
+ margin-top: 3rem;
+
 }
 
 .nav-desktop{
@@ -195,12 +195,12 @@ transform: translateX(-50%);
 }
 
 .about-header {
-  position: fixed;
-  width: 94.4%;
+  position: relative;
+  width: 100%;
   box-shadow: 1px -1px 23px -1px cyan;
   -webkit-box-shadow: 1px -1px 23px -1px cyan;
   -moz-box-shadow: 1px -1px 23px -1px cyan;
-  background-color: green;
+  background-color: black;
   color: white;
   text-shadow: cyan 1px 0 10px;
   font-family: 'Oleo Script', cursive;
@@ -326,6 +326,14 @@ margin-right: 2rem;
   .projects{
     overflow: scroll;
   }
+
+  .card{
+    height: 32rem;
+  }
+
+  .card-img-top{
+    height: 15rem;
+  }
 }
 
 @media screen and (min-width:500) and (max-width: 1000px) {
@@ -362,6 +370,7 @@ button:visited {
 
   .middle-scroll{
     overflow: scroll;
+    width: 100%;
   }
 
   .middle{

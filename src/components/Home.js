@@ -8,6 +8,7 @@ import TextTransition, { presets } from "react-text-transition";
 const Home = (props) => {
 
     const TEXTS = [
+        "TypeScript",
         "HTML",
         "CSS",
         "JavaScript",

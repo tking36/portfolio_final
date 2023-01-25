@@ -9,7 +9,7 @@ const Skills = (props) => {
   return (
    <div className='skills'>
 
-    
+<h1 className='about-header'>Skills</h1>
 
     <div className="card">
         <div className="card-header">Languages</div>
@@ -17,6 +17,7 @@ const Skills = (props) => {
             <li className="list-group-item">HTML</li>
             <li className="list-group-item">CSS</li>
             <li className="list-group-item">JavaScript</li>
+            <li className="list-group-item">Typescript</li>
         </ul>
     </div>
 
