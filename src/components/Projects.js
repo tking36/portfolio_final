@@ -19,9 +19,9 @@ const Projects = (props) => {
             <div className="card-body">
                 <h5 className="card-title">Music Library</h5>
                 <p className="card-text">This is a react app that uses JavaScript and JSX for storing and displaying your favorite music, including properties such as song name, artist, album, genre and year.</p>
-                <li class="list-group-item"><a className='link' href='https://my-music-library321.herokuapp.com/' target='blank'>Demo</a></li>
-                <li class="list-group-item "><a className='link' href='https://github.com/tking36/back-end' target='blank'>GIT HUB Back-End</a></li>
-                <li class="list-group-item"><a className='link' href='https://github.com/tking36/front-end' target='blank'>GIT HUB Front-End</a></li>
+                <li className="list-group-item"><a className='link' href='https://my-music-library321.herokuapp.com/' target='blank'>Demo</a></li>
+                <li className="list-group-item "><a className='link' href='https://github.com/tking36/back-end' target='blank'>GIT HUB Back-End</a></li>
+                <li className="list-group-item"><a className='link' href='https://github.com/tking36/front-end' target='blank'>GIT HUB Front-End</a></li>
             </div>
         </div>
 
@@ -30,9 +30,9 @@ const Projects = (props) => {
             <div className="card-body">
                 <h5 className="card-title">Space Invaders</h5>
                 <p className="card-text">This is a react app that uses Typscript and TSX. Choose your own adventure game. Travel space and defeat enemies to gather recourses for Earth.</p>
-                <li class="list-group-item"><a className='link' href='https://space-invaders.herokuapp.com/' target='blank'>Demo</a></li>
+                <li className="list-group-item"><a className='link' href='https://space-invaders.herokuapp.com/' target='blank'>Demo</a></li>
                 <br></br>
-                <li class="list-group-item"><a className='link' href=' https://github.com/tking36/adventure_front_end' target='blank'>GIT HUB Front-End</a></li>
+                <li className="list-group-item"><a className='link' href=' https://github.com/tking36/adventure_front_end' target='blank'>GIT HUB Front-End</a></li>
             </div>
         </div>
 
@@ -43,7 +43,7 @@ const Projects = (props) => {
                 <p className="card-text">This is a app made with Express and MongoDB for storing and displaying your favorite podcasts. </p>
                 {/* <li class="list-group-item"><a className='link' href='https://space-invaders.herokuapp.com/' target='blank'>Demo</a></li> */}
                 <br></br>
-                <li class="list-group-item"><a className='link' href=' https://github.com/tking36/podcast' target='blank'>GIT HUB Front-End</a></li>
+                <li className="list-group-item"><a className='link' href=' https://github.com/tking36/podcast' target='blank'>GIT HUB Front-End</a></li>
             </div>
         </div>
 

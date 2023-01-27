@@ -21,7 +21,8 @@ code {
 .navigation {
   position: relative;
  margin: auto;
- margin-top: 3rem;
+ margin-top: 1rem;
+ margin-bottom: 2rem;
 
 }
 
@@ -315,7 +316,7 @@ margin-right: 2rem;
     justify-content: center;
     position: relative;
     margin-top: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .brand-statement-container{
