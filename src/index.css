@@ -123,7 +123,7 @@ code {
 
 .portrait {
   width: 10rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
   border-radius: 50%;
 }
 
@@ -322,7 +322,7 @@ margin-right: 2rem;
   .brand-statement-container{
     width: 50%;
     margin: auto;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 
   .projects{
@@ -358,14 +358,19 @@ margin-right: 2rem;
     margin: auto;
     margin-top: 3rem;
   }
+
+  
 }
+
+
+
 
 button:visited {
   background-color: red;
   font-size: 30px !important;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:781px) {
 
   #projects{
     display: flex;
