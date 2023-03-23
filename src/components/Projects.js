@@ -9,6 +9,7 @@ const Projects = (props) => {
       const Music = require ('../images/music-shot.png')
       const Space = require ('../images/space-shot.png')
       const Podcast = require ('../images/podcast-shot.png')
+      const Ecommerce = require('../images/ecommerce.png')
 
   return (
     <>
@@ -40,10 +41,20 @@ const Projects = (props) => {
             <img src={Podcast} className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">Podcast Library</h5>
-                <p className="card-text">This is a app made with Express and MongoDB for storing and displaying your favorite podcasts. </p>
-                {/* <li class="list-group-item"><a className='link' href='https://space-invaders.herokuapp.com/' target='blank'>Demo</a></li> */}
+                <p className="card-text">This is an app made with Express and MongoDB for storing and displaying your favorite podcasts. </p>
                 <br></br>
                 <li className="list-group-item"><a className='link' href=' https://github.com/tking36/podcast' target='blank'>GIT HUB Front-End</a></li>
+            </div>
+        </div>
+
+        <div className="card" >
+            <img src={Ecommerce} className="card-img-top" alt="..."/>
+            <div className="card-body">
+                <h5 className="card-title">ShopKing</h5>
+                <p className="card-text">This is an Ecommerce React app made with Django, Postgres, AWS, Redux, and JWT.</p>
+                <li class="list-group-item"><a className='link' href='https://king-shop.herokuapp.com/' target='blank'>Demo</a></li>
+                <br></br>
+                <li className="list-group-item"><a className='link' href=' https://github.com/tking36/ecommerce' target='blank'>GIT HUB Front-End</a></li>
             </div>
         </div>
 

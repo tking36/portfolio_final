@@ -96,7 +96,7 @@ code {
 .middle {
   margin: auto;
   width: 23rem;
-  height: 39rem;
+  height: 100%;
   margin-top: 1rem;
   border-radius: 10px;
   opacity: 0.95;
@@ -109,7 +109,7 @@ code {
 .middle-scroll{
   margin: auto;
   width: 80%;
-  height: 39rem;
+  height: 100%;
   margin-top: 1rem;
   border-radius: 10px;
   opacity: 0.95;
