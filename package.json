@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.1",
     "bootstrap-icons": "^1.10.3",
+    "mkdirp": "^1.0.4",
     "react": "^18.2.0",
     "react-animated-bg": "^1.2.2",
     "react-bootstrap": "^2.7.0",
@@ -17,6 +18,7 @@
     "react-scripts": "5.0.1",
     "react-text-transition": "^3.0.2",
     "react-tooltip": "^5.3.2",
+    "uuid": "^7.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
