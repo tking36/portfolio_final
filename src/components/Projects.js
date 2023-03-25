@@ -6,17 +6,13 @@ const Projects = (props) => {
         props.setPage(num)
       }
 
-      const Music = require ('../images/music-shot.png')
-      const Space = require ('../images/space-shot.png')
-      const Podcast = require ('../images/podcast-shot.png')
-      const Ecommerce = require('../images/ecommerce.png')
 
   return (
     <>
     <div id="projects">
         <h1 className='about-header'>Projects</h1>
         <div id="first" className="card" >
-            <img src={Music} className="card-img-top" alt="..."/>
+            <img src="https://i.imgur.com/563bF15.png" className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">Music Library</h5>
                 <p className="card-text">This is a react app that uses JavaScript and JSX for storing and displaying your favorite music, including properties such as song name, artist, album, genre and year.</p>
@@ -27,7 +23,7 @@ const Projects = (props) => {
         </div>
 
         <div className="card" >
-        <img src={Space} className="card-img-top" alt="..."/>
+        <img src='https://i.imgur.com/LAoUMDs.png' className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">Space Invaders</h5>
                 <p className="card-text">This is a react app that uses Typscript and TSX. Choose your own adventure game. Travel space and defeat enemies to gather recourses for Earth.</p>
@@ -38,7 +34,7 @@ const Projects = (props) => {
         </div>
 
         <div className="card" >
-            <img src={Podcast} className="card-img-top" alt="..."/>
+            <img src='https://i.imgur.com/93Tav5R.png' className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">Podcast Library</h5>
                 <p className="card-text">This is an app made with Express and MongoDB for storing and displaying your favorite podcasts. </p>
@@ -48,7 +44,7 @@ const Projects = (props) => {
         </div>
 
         <div className="card" >
-            <img src={Ecommerce} className="card-img-top" alt="..."/>
+            <img src='https://i.imgur.com/JJttsuI.png' className="card-img-top" alt="..."/>
             <div className="card-body">
                 <h5 className="card-title">ShopKing</h5>
                 <p className="card-text">This is an Ecommerce React app made with Django, Postgres, AWS, Redux, and JWT.</p>

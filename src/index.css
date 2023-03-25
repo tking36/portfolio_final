@@ -48,6 +48,7 @@ code {
   display: flex;
   justify-content: center;
   background-color: grey;
+  color: white;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: rgb(0, 29, 56);
@@ -57,22 +58,7 @@ code {
     font-family: 'Audiowide', cursive;
 }
 
-.glow {
-  color: #fff;
-  text-align: center;
-  -webkit-animation: glow 2s ease-in-out infinite alternate;
-  -moz-animation: glow 2s ease-in-out infinite alternate;
-  animation: glow 2s ease-in-out infinite alternate;
-}
 
-@keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00d3e6, 0 0 40px #00d3e6, 0 0 50px #00d3e6, 0 0 60px #00d3e6, 0 0 70px #00d3e6;
-  }
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #00fa00, 0 0 40px #00fa00, 0 0 50px #00fa00, 0 0 60px #00fa00, 0 0 70px #00fa00, 0 0 80px #00fa00;
-  }
-}
 
 .navB{
   margin-left: 0.75rem;
